@@ -413,3 +413,21 @@ nav {
 .post-row a{
   color: #9a9a9a;
 }
+
+.load-more-btn{
+display: block;
+margin: auto;
+cursor: pointer;
+padding: 5px 10px ;
+border-radius: 4px;
+color: #626262;
+background: transparent;
+border: 1px solid #9a9a9a;
+}
+
+.footer{
+  color: #9a9a9a;
+  text-align: center;
+  padding: 10px 0 30px;
+   font-size:13px;
+}

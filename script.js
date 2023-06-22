@@ -9,5 +9,9 @@ function settingsMenuToggle() {
 // dark button
 var darkbtn = document.getElementById('dark-btn');
 darkbtn.onclick = function () {
-    darkbtn.classList.toggle('dark-btn-on');
+  darkbtn.classList.toggle('dark-btn-on');
+  // dark background
+  document.body.classList.toggle('dark-theme');
 }
+
+

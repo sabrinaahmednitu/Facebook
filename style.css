@@ -97,7 +97,7 @@ nav {
 /* settings-menu */
 
 .settings-menu{
-background: #fff;
+background: var(--bg-color);
 position: absolute;
 width: 90%;
 max-width: 430px;
@@ -173,7 +173,7 @@ text-decoration: none;
 }
 #dark-btn.dark-btn-on{
   padding-left: 23px;
-  background: #000;
+  background: #0a0a0a;
 }
 
 /* left-sidebar main right-sidebar */

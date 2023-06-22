@@ -87,19 +87,50 @@ nav {
 background: #fff;
 position: absolute;
 width: 90%;
-max-width: 350px;
-height: 500px;
+max-width: 430px;
 box-shadow: 0 0 10px rgba(0,0,0,0.4);
 border-radius: 4px;
 overflow: hidden;
 top: 108%;
-right: 8%;
+right: 5%;
 }
 
+.user-profile a {
+font-size: 12px;
+color: #1876f2;
+text-decoration: none;
+}
 
+.settings-menu-inner{
+  padding: 20px;
+}
 
+.settings-menu hr{
+  border: 0;
+  height: 1px;
+  background: #9a9a9a;
+  margin: 15px 0;
+}
 
+.settings-link{
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
 
+.settings-link .settings-icon{
+ width: 38px;
+ margin-right:10px ;
+ border-radius: 50%;
+}
+.settings-link a{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #626262;
+}
 /* left-sidebar main right-sidebar */
 
 .container {

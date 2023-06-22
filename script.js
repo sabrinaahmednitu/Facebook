@@ -4,3 +4,10 @@ console.log(settingsmenu)
 function settingsMenuToggle() {
  settingsmenu.classList.toggle('settings-menu-height');
 }
+
+
+// dark button
+var darkbtn = document.getElementById('dark-btn');
+darkbtn.onclick = function () {
+    darkbtn.classList.toggle('dark-btn-on');
+}
